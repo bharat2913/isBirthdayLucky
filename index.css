@@ -1,0 +1,54 @@
+:root {
+    --dark-brown: rgb(44, 37, 37);
+    --brown: rgb(201, 166, 101);
+   --pink: rgb(220, 139, 154);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-brown);
+    color: var(--brown);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    width: 60%;
+    
+}
+
+#dateOfBirth, #luckyNumber {
+    margin: 0.5rem 0;
+    padding: 10px 5px;
+    color: var(--dark-brown);
+    background-color: var(--pink);
+    border: none;
+    border-radius: 5px;
+    /* width: 100%; */
+}
+
+#checkNumber {
+    margin: 1rem auto;
+    width: 50%;
+    color: var(--dark-brown);
+    background-color: var(--brown);
+    padding: 10px 5px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+#output {
+    background-color: var(--pink);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 1rem auto;
+}
